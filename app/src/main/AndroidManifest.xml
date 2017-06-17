@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="za.co.riggaroo.datecountdown">
+    package="org.co.thanhpd56.datecountdown">
 
     <application
-        android:name="za.co.riggaroo.datecountdown.CountdownApplication"
+        android:name="org.co.thanhpd56.datecountdown.CountdownApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="za.co.riggaroo.datecountdown.ui.event.list.EventListActivity">
+        <activity android:name="org.co.thanhpd56.datecountdown.ui.event.list.EventListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="za.co.riggaroo.datecountdown.ui.event.add.AddEventActivity"
+            android:name="org.co.thanhpd56.datecountdown.ui.event.add.AddEventActivity"
             android:windowSoftInputMode="adjustResize" />
     </application>
 
